@@ -1,0 +1,79 @@
+/*
+Theme Name: Twenty Fourteen Point Five
+Theme URI: http://example.com/twenty-fourteen
+Author: Philip John
+Author URI: http://philipjohn.me.uk
+Description: Child of Twenty Fourteen to have awesomeness on my site
+Version: 1.1
+Template: twentyfourteen
+*/
+
+@import url('../twentyfourteen/style.css');
+
+.site-header,
+#secondary,
+.site-footer,
+.site:before {
+	background-color: #1e2a29;
+}
+
+.search-toggle,
+.search-box,
+.search-toggle.active,
+.primary-navigation li:hover > a,
+.primary-navigation li.focus > a,
+.primary-navigation ul ul,
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #a7b145;
+}
+
+a {
+	color: #a7b145;
+}
+
+.search-toggle:hover,
+.site-navigation a:hover,
+.primary-navigation ul ul a:hover,
+.primary-navigation ul ul li.focus > a,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+button:active,
+.button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+.entry-meta .tag-links a:hover {
+	background-color: #b7c68b;
+}
+
+a:active,
+a:hover,
+.widget a:hover,
+.site-title a,
+.site-title a:hover,
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.entry-title a:hover,
+.entry-meta a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover {
+	color: #b7c68b;
+}
+
+.entry-meta .tag-links a:hover:before {
+	border-right-color: #b7c68b;
+}
