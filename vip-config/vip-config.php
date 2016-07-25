@@ -12,3 +12,4 @@
  * - The WordPress.com VIP Team
  **/
  
+ define( 'VIP_JETPACK_ALT', true );
